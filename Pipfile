@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+validate-email = "*"
+regex = "*"
+cachetools = "*"
+pydantic = {extras = ["dotenv"], version = "*"}
+aiogram = "==3.0.0b7"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.11"
